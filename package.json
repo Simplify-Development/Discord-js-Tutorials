@@ -1,0 +1,23 @@
+{
+  "name": "Discord-js-Tutorials",
+  "version": "1.0.0",
+  "description": "TUTORIALS ARE COMMING SOON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simplify-Development/Discord-js-Tutorials.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simplify-Development/Discord-js-Tutorials/issues"
+  },
+  "homepage": "https://github.com/Simplify-Development/Discord-js-Tutorials#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
