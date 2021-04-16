@@ -4,7 +4,7 @@ module.exports = {
     name: "ping",
     /** 
      * @param {Discord.Client} client
-     * @param {Disocrd.Message} message
+     * @param {Discord.Message} message
      * @param {String[]} args
     */
     async execute(client, message, args) {
