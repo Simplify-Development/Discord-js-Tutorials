@@ -1,7 +1,6 @@
-module.exports = async (prefix, client, message) => {
-    // Imports
-    const commandFile = require('./message/commands');
-
-    // Running our files
-    commandFile(prefix, client, message);
+module.exports = async (prefix, client, message, commandsFiles) => {
+    const events = ["commands"];
+    events.forEach(event => {
+        require(`./message/${event}`)(prefix, client, message, commandsFiles);
+    });
 }
