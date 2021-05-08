@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Simplify-Development/Discord-js-Tutorials#readme",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.5.3",
+    "mongoose": "^5.12.7"
   }
 }
