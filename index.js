@@ -7,8 +7,7 @@ require('./database')();
 client.on('ready', () => {
     console.log("Bot is online!");
     client.user.setActivity("YouTube", { type: "WATCHING" });
-
-    require('./database/testing')();
+    require('./database/test')();
 });
 
 const commandsFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
